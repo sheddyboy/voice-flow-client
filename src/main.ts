@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3001/api/marketplace";
+const BASE_URL = "https://voice-flow-server.vercel.app/api/marketplace";
 
 document.addEventListener("DOMContentLoaded", async () => {
   const marketplaceData = await fetchMarketplaceData();
